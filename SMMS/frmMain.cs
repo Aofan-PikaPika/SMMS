@@ -51,6 +51,9 @@ namespace SMMS
 
         private void 员工信息ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmEmpInfo emp = new frmEmpInfo();
+            emp.Owner = this;
+            emp.ShowDialog();
             
         }
 

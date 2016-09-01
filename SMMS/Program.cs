@@ -15,7 +15,7 @@ namespace SMMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEmpInfo());
+            Application.Run(new frmLogin());
         }
     }
 }
